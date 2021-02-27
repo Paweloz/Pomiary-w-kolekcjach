@@ -1,5 +1,3 @@
-import java.util.*;
-
 class Application {
     public static void main (String[] args) {
         //CZĘŚĆ PIERWSZA ZADANIA
