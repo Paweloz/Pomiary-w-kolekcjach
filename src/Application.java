@@ -1,3 +1,4 @@
+@SuppressWarnings("ALL")
 class Application {
     public static void main (String[] args) {
         //CZĘŚĆ PIERWSZA ZADANIA

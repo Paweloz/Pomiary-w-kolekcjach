@@ -1,16 +1,14 @@
 import java.util.*;
 class BooksOnList{
-    Book[] books;
-    List<Book> listOfBooks = new LinkedList<>();
+    final Book[] books;
+    final List<Book> listOfBooks = new LinkedList<>();
     //Konstruktor
     public BooksOnList(Book[] books){
         this.books=books;
     }
     //Wypełnianie listy 
     public void fillTheList(){
-        for(int i=0;i<books.length;i++){
-            listOfBooks.add(books[i]);
-        }
+        Collections.addAll(listOfBooks, books);
         System.out.println(books.length + " książek zostało dodanych na listę \n");
     }
     //Dodawanie pierwszego elementu na listę

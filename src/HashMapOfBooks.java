@@ -1,9 +1,10 @@
 import java.util.*;
 
+@SuppressWarnings("UnusedAssignment")
 class HashMapOfBooks{
-    Book[] books;
-    HashMapKey[] keys;
-    Map<HashMapKey,Book> hashMapOfBooks = new HashMap<>();
+    final Book[] books;
+    final HashMapKey[] keys;
+    final Map<HashMapKey,Book> hashMapOfBooks = new HashMap<>();
 
     public HashMapOfBooks(HashMapKey[] keys,Book[] books){
         this.books=books;
