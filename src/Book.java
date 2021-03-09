@@ -39,7 +39,7 @@ class Book {
     }
     @Override
     public String toString(){
-        return "[ \"Książka : \""+title+"\" Autor : \""+author+" ]";
+        return "[ \"Książka: \""+title+"\" Autor : \""+author+" ]";
     }
     @SuppressWarnings("EqualsWhichDoesntCheckParameterClass")
     @Override
